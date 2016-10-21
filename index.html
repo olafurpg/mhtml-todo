@@ -2,14 +2,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>mhtml - TodoMVC</title>
+    <link rel="stylesheet" href="node_modules/todomvc-common/base.css"/>
+    <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css"/>
 </head>
 <body>
-<!-- Include Scala.js compiled code -->
-<script type="text/javascript" src="./target/scala-2.11/scala-js-tutorial-fastopt.js"></script>
-<!-- Run tutorial.webapp.TutorialApp -->
-<script type="text/javascript">
-    mhtml.todo.Todo().main();
-</script>
-</body>
+  <script type="text/javascript" src="node_modules/todomvc-common/base.js"></script>
+  <script type="text/javascript" src="./target/scala-2.11/mhtml-todo-fastopt.js"></script>
+  <div id="application-container"></div>
+  <script type="text/javascript"> mhtml.todo.MhtmlTodo().main(); </script>
+  </body>
 </html>
