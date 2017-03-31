@@ -122,7 +122,7 @@ object MhtmlTodo extends JSApp {
         }
       }
       def ignoreEvent: (Event) => Unit = _ => Unit
-      def blurHandler: Rx[Event => Any] =
+      def blurHandler: Rx[Event => Unit] =
         suppressOnBlur.map(x => if (x) ignoreEvent else submit)
       def onToggleCompleted: (Event) => Unit = { event: Event =>
         event.currentTarget match {
