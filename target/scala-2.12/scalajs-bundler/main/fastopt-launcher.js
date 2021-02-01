@@ -1,0 +1,1 @@
+require("/Users/olafurpg/dev/olafurpg/mhtml-todo/target/scala-2.12/scalajs-bundler/main/mhtml-todo-fastopt.js")["mhtml"]["todo"]["MhtmlTodo"]().main()

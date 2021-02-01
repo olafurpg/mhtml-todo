@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "todomvc-app-css": "2.1.0"
+  },
+  "devDependencies": {
+    "concat-with-sourcemaps": "1.0.4",
+    "source-map-loader": "0.1.5",
+    "webpack": "1.14"
+  }
+}
